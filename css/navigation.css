@@ -1,0 +1,90 @@
+/* ↓  初始化  ↓*/
+html {overflow-y:scroll;} 
+body {margin:0; padding:0px; font:14px;background:#ffffff;} 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;} 
+li{list-style-type:none;} 
+img{vertical-align:top;border:0;} 
+ol,ul {list-style:none;margin: 0;padding: 0px;} 
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+input,button{ margin:0; padding:0; list-style-type:none;}
+*{box-sizing: border-box;padding: 0;margin: 0;}
+/* ↑  初始化  ↑*/
+
+/* 顶部   CSS样式 */
+.tools_header{
+    position: fixed;
+    top: 0;
+    min-width: 1280px;
+    color: #fff;
+    padding: 0 20px 0 0;
+    float: left;  
+    width:100%;
+    height:56px;  
+    background-color: #252936;
+    z-index: 10;
+}
+.head_logo{
+    width: 326px;
+    height: 56px;  
+    float: left; 
+    cursor:pointer;
+}
+.header_menu{
+    width: 310px;
+    height: 56px;
+    float: left; 
+}
+.header_menu ul li a{
+    width: 100px;
+    height: 56px;
+    float: left; 
+    text-align: center;
+    line-height: 56px;
+    font-size: 16px;
+    color: #ffffff;    
+    text-decoration:none;
+    cursor:pointer;
+    margin-right: 1px;
+}
+.header_menu ul li a.active,.header_menu li a:hover{
+    background: hsla(0,0%,100%,.2);
+}
+.header_menu ul li a:hover { 
+    text-decoration:none;
+    background: hsla(0,0%,100%,.2);
+}
+.header_topbar{ 
+    width: 186.31px;
+    height: 45px;
+    float:right;
+    cursor:pointer;
+    margin-top: 2px;
+    line-height: 50px;
+}
+.header_topbar ul li{
+    float: left;   
+    line-height: 50px;
+    font-size: 18px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-weight: 100;
+    margin-left: -5px;
+}
+.header_topbar ul li a{  
+    display: block;
+    min-width: 50px;
+    border-radius: 2px; 
+    float: left; 
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: -200;
+    margin-top: 2px;
+}
+.header_topbar ul li a:hover{
+    color: rgb(230, 230, 230);
+}

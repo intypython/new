@@ -1,0 +1,338 @@
+/* 页面 */
+.header_menu ul li{
+    margin-left: 1px;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    margin-top: 56px;
+    overflow: auto auto;
+    background-color: #eee;
+    padding: 20px 50px 20px 370px;
+    overflow-y: auto;
+    position: fixed;
+}
+/* 按钮 */
+.btn{
+    width:300px;
+    height: 152px;  
+    float: left;
+    left: 50px;
+    position: fixed;
+    cursor: pointer;
+}
+.btn ul li{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+}
+.btn ul .active{
+    background-color: #023c71;
+    color: #fff;
+    border-color:  #023c71;
+}
+/* 搜索功能 */
+.right{
+    width: 100%;
+    height: 286px;
+    float: left;
+}
+.search{
+    width: 1500px;
+    height: 36px;
+    float: left;
+}
+.input input{
+    height: 32px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 350px;
+    outline:none;
+    float: left;
+}
+.btn_search{
+    cursor: pointer;
+    height: 32px;
+    width: 76px;
+    float: left;
+    background: #fff;
+    border-color: #ddd;
+    outline:none;
+    margin-left: 15px;
+    border: 1px solid #ddd;
+}
+/* 每个框 */
+.sameicon_H{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    min-height: 220px;
+    background-color: #fff;
+    margin-right: 24px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#fp{
+    display: block;
+    padding-top: -20px; 
+    margin-bottom: 100px;
+}
+#dp{
+    display: none;
+    padding-top: -20px;
+    
+    margin-bottom: 100px;
+}
+#lp{
+    display: none;
+    padding-top: -20px;
+    
+    margin-bottom: 100px;
+}
+/* 手风琴图标按钮 */
+.sameicon{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    color: #ddd;
+    text-align: center;
+    bottom: -2px;
+    left: 50%;
+    background-color: #fff;
+    transform: translateX(-50%);
+    cursor: pointer;
+    text-align: center;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    margin-bottom: -10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    bottom: -5px;
+ }
+ .i{
+     height: 16px;
+     width: 16px;
+     position: absolute;
+     bottom: -14px;
+     left: 50%;
+     transform: translateX(-50%);
+     text-align: center;
+ }
+#dis0{
+    display: none;
+}
+#dis1{
+    display: none;
+}
+#dis2{
+    display: none;
+}
+#dis3{
+    display: none;
+}
+ /* right的图形框 */
+.apilist_li{
+    padding: 40px 200px 40px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.apiitem_icon{
+    position: absolute;
+    top:40px;
+    left: 40px;
+    float: left;
+}
+.appiitem_icon img{
+    width: 140px;
+    height: auto;
+    max-width: 160px;
+}
+/* right文字框 */
+.apilist_li{
+    padding: 40px;
+    padding-left: 200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.r_right{
+    padding-right: 65px;
+}
+.apiitem_title{
+    font-size: 28px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.apiitem_decs{
+    line-height: 1.5;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 10px;
+}
+.apiitem_lines{
+    width: 100%;
+    overflow: hidden;
+}
+.apiitem_lable{
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 6px;
+    color: #333;
+    font-size: 14px;
+}
+/* right第二个文字框 */
+.detailpage {
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.apilist_inner {
+    border-top: 1px solid #ddd;
+    padding: 20px 24px 10px;
+    font-size: 14px;
+}
+.item_block {
+    margin-bottom: 40px;
+}
+.lable_title {
+    line-height: 18px;
+    padding: 0 10px;
+    margin: 10px 0;
+    border-left: 3px solid #f0cf6b;
+    color: #f0cf6b;
+    font-size: 16px;
+}
+.item_base {
+    line-height: 1.8;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.item_base div {
+    float: left;
+    width: 25%;
+}
+/* right第三个文本框 */
+.item_block {
+    margin-bottom: 40px;
+}
+.apilist_inner .item_block:nth-child(2) .lable_title {
+    border-color: #9159dd;
+    color: #9159dd;
+}
+.apilist_inner .item_block:nth-child(3) .lable_title {
+    border-color: #85cfe2;
+    color: #85cfe2;
+}
+.item_block:nth-child(4) .lable_title {
+    border-color: #6ec884;
+    color: #6ec884;
+}
+.item_block:nth-child(5) .lable_title {
+    border-color: #f88b42;
+    color: #f88b42;
+}
+.item_block:nth-child(6) .lable_title {
+    border-color: #ff5959;
+    color: #ff5959;
+}
+body .dy-table {
+    position: relative;
+    z-index: 1;
+}
+.dy-table *{
+    box-sizing: border-box;
+}
+.dy-table table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    color: #666;
+}
+colgroup {
+    display: table-column-group;
+}
+.dy-table table thead {
+    border-top: 1px solid #ddd;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td:hover{
+    background: #F3F6F8;
+}
+.dy-table table th {
+    position: relative;
+    font-weight: 700;
+    color: #333;
+    background: #f5f5f5;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.dy-table-title {
+    position: relative;
+    display: table-cell;
+    height: 43px;
+    vertical-align: middle;
+}
+.dy-table table thead {
+    border-top: 1px solid #ddd;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.dy-table table tbody tr, .dy-table table thead {
+    border-bottom: 1px solid #ddd;
+    transition: all .3s;
+}
+.dy-table table tr td:first-child {
+    border-bottom: 0;
+}
+.dy-table table td, .dy-table table th {
+    height: 44px;
+    padding: 0 0 0 30px;
+}
+.dy-table-empty {
+    text-align: center;
+    color: #999;
+}
+.dy-loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: hsla(0,0%,100%,.9);
+    z-index: 9999;
+}
+.dy-table-footer {
+    margin-top: 20px;
+    text-align: right;
+}

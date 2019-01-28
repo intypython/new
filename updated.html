@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link href="css/navigation.css" rel="stylesheet" type="text/css" >
+    <link href="css\updated.css" rel="stylesheet" type="text/css" > 
+    <title>道一云PaaS开发平台</title>
+</head>
+<body>
+    <div>
+        <!-- 顶部导航栏 -->
+        <div class="TOP">
+                <div class="tools_header">
+                    <div class="head_logo">
+                        <img src="img/pic1.png"> 
+                    </div>
+                    <div class="header_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="router-link-exact-active active">主页</a>
+                            </li>
+                            <li>
+                                <a href="market.html">API市场</a>
+                            </li>
+                            <li>
+                                <a href="updated.html">更新说明</a>
+                            </li>
+                        </ul>                        
+                    </div>
+                    <div class="header_topbar">
+                        <ul>
+                            <li>
+                                <a href="login.html">登录</a>
+                            </li>
+                            <li>|</li>
+                            <li>
+                                <a href="register.html">开发商注册</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+        </div>
+        <!-- update页面说明 -->
+        <div class="Updated_contener">
+            <div class="title">
+                版本更新说明
+            </div>
+            <ul class="version">
+                <li class="version_li">
+                    <div class="version_titles">
+                        <i class="dy-icon">
+                            <span><img src="img/icon18.png"></span>
+                        </i>
+                        <span class="version_num">V0.1.4</span>
+                        <span class="date">2018-04-13</span>                       
+                    </div>
+                    <div class="detail_ul">
+                        <ul>
+                            <li>支持二类、三类政务微信应用对接，增加应用主页、应用可见范围、可信域名等内容的对接；</li>
+                            <li>能力接口服务支持二类网；使用redis替换存在高危漏洞的memcached缓存；优化查询，减少与三类服务的交互；</li>
+                            <li>前端修复22个缺陷/细节问题；页面还原度达到85%;</li>
+                            <li>网关支持二类网部署，与接口能力连通，实现二类网API服务监控；</li>
+                            <li>三类网支持14个API接口，二类网支持10个API接口;</li>
+                            <li>网关信息、监控信息实现分级管理;</li>
+                            <li>通讯录人员支持多部门。</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+     </div>   
+</body>
+</html>
